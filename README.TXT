@@ -15,7 +15,8 @@ CONTRIBUTERS:               Kilgore Trout
                              is added and correct)
 
 USER INSTRUCTIONS:
-
+See Sandra Winkler's Medium article on Git Workflows
+https://medium.com/@swinkler/git-workflow-explained-a-step-by-step-guide-83c1c9247f03
 
 1) Start git bash (assuming that you are using git bash). 
 NOTE: We will ask  for one or more class buildmasters.  Each class build-master should fork the main repo to a new repo before starting. Names below should be updated accordingly
@@ -32,6 +33,9 @@ NOTE: This should set up all initial conditions for GIT and avoid a lot of confu
 
 5) Once tested and saved in Greenfoot, from the bash shell add any files that you want to put into the repository to the next git commit: (Note: File names are case sensitive!)
 
+git status
+5.a) git status should show new and changed files, but not yet added in red. Added files not yet committed in green.
+
 PLEASE DO NOT COMMIT YOUR FILES IF THEY DO NOT COMPILE LOCALLY!!!!! DO NOT COMMIT TO THIS MASTER REPOSITORY! Work with your build master to create a fork with appropriate permissions! Teachers will provide the current version of the seating chart in Canvas, so that you know where you should be seated.
 =====================================================================
 
@@ -44,6 +48,7 @@ git add sounds/firstlast.wav
 6) Check to see what has been staged (from the git command line):
 
 git status
+added files are now in green, ready to commit
 
 7) Commit your changes from the git command line:
 
@@ -52,8 +57,9 @@ git commit -m “adding my files to the repository”
 8) Push your changes to the remote repository (each period should have their own cloned or branched version to work with.
 Do not commit back to the master repo:
 
-git push
+git push upstream feature
 
+Then create a pull request to get your changes approved and added to the master repository on github
 
 ASSIGNMENT INSTRUCTIONS IN BRIEF
 
