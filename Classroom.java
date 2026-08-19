@@ -38,6 +38,8 @@ public class Classroom extends World
      */
 
     private void createDeskLayout(){
+        // addObject(obj,x,y)
+        // Table 7
         StudentDesk studentdesk = new StudentDesk();
         addObject(studentdesk,2,3);
         StudentDesk studentdesk2 = new StudentDesk();
@@ -46,6 +48,7 @@ public class Classroom extends World
         addObject(studentdesk3,2,4);
         StudentDesk studentdesk4 = new StudentDesk();
         addObject(studentdesk4,3,4);
+        // Table 8
         StudentDesk studentdesk5 = new StudentDesk();
         addObject(studentdesk5,2,6);
         StudentDesk studentdesk6 = new StudentDesk();
@@ -54,6 +57,17 @@ public class Classroom extends World
         addObject(studentdesk7,2,7);
         StudentDesk studentdesk8 = new StudentDesk();
         addObject(studentdesk8,3,7);
+        // Table 9
+        StudentDesk studentdesk33 = new StudentDesk();
+        addObject(studentdesk33,2,9);
+        StudentDesk studentdesk34 = new StudentDesk();
+        addObject(studentdesk34,3,9);
+        StudentDesk studentdesk35 = new StudentDesk();
+        addObject(studentdesk35,2,10);
+        StudentDesk studentdesk36 = new StudentDesk();
+        addObject(studentdesk36,3,10);
+        
+        // Table 4
         StudentDesk studentdesk9 = new StudentDesk();
         addObject(studentdesk9,5,3);
         StudentDesk studentdesk10 = new StudentDesk();
@@ -62,6 +76,7 @@ public class Classroom extends World
         addObject(studentdesk11,5,4);
         StudentDesk studentdesk12 = new StudentDesk();
         addObject(studentdesk12,6,4);
+        // Table 5
         StudentDesk studentdesk13 = new StudentDesk();
         addObject(studentdesk13,5,6);
         StudentDesk studentdesk14 = new StudentDesk();
@@ -70,30 +85,7 @@ public class Classroom extends World
         addObject(studentdesk15,5,7);
         StudentDesk studentdesk16 = new StudentDesk();
         addObject(studentdesk16,6,7);
-        StudentDesk studentdesk17 = new StudentDesk();
-        addObject(studentdesk17,8,3);
-        StudentDesk studentdesk18 = new StudentDesk();
-        addObject(studentdesk18,9,3);
-        StudentDesk studentdesk19 = new StudentDesk();
-        addObject(studentdesk19,8,4);
-        StudentDesk studentdesk20 = new StudentDesk();
-        addObject(studentdesk20,9,4);
-        StudentDesk studentdesk21 = new StudentDesk();
-        addObject(studentdesk21,8,6);
-        StudentDesk studentdesk22 = new StudentDesk();
-        addObject(studentdesk22,9,6);
-        StudentDesk studentdesk23 = new StudentDesk();
-        addObject(studentdesk23,8,7);
-        StudentDesk studentdesk24 = new StudentDesk();
-        addObject(studentdesk24,9,7);
-        StudentDesk studentdesk25 = new StudentDesk();
-        addObject(studentdesk25,8,9);
-        StudentDesk studentdesk26 = new StudentDesk();
-        addObject(studentdesk26,9,9);
-        StudentDesk studentdesk27 = new StudentDesk();
-        addObject(studentdesk27,8,10);
-        StudentDesk studentdesk28 = new StudentDesk();
-        addObject(studentdesk28,9,10);
+        // Table 6
         StudentDesk studentdesk29 = new StudentDesk();
         addObject(studentdesk29,5,9);
         StudentDesk studentdesk30 = new StudentDesk();
@@ -102,8 +94,37 @@ public class Classroom extends World
         addObject(studentdesk31,5,10);
         StudentDesk studentdesk32 = new StudentDesk();
         addObject(studentdesk32,6,10);
+        
+        // Table 1
+        StudentDesk studentdesk17 = new StudentDesk();
+        addObject(studentdesk17,8,3);
+        StudentDesk studentdesk18 = new StudentDesk();
+        addObject(studentdesk18,9,3);
+        StudentDesk studentdesk19 = new StudentDesk();
+        addObject(studentdesk19,8,4);
+        StudentDesk studentdesk20 = new StudentDesk();
+        addObject(studentdesk20,9,4);        
+        // Table 2
+        StudentDesk studentdesk21 = new StudentDesk();
+        addObject(studentdesk21,8,6);
+        StudentDesk studentdesk22 = new StudentDesk();
+        addObject(studentdesk22,9,6);
+        StudentDesk studentdesk23 = new StudentDesk();
+        addObject(studentdesk23,8,7);
+        StudentDesk studentdesk24 = new StudentDesk();
+        addObject(studentdesk24,9,7);
+        // Table 3
+        StudentDesk studentdesk25 = new StudentDesk();
+        addObject(studentdesk25,8,9);
+        StudentDesk studentdesk26 = new StudentDesk();
+        addObject(studentdesk26,9,9);
+        StudentDesk studentdesk27 = new StudentDesk();
+        addObject(studentdesk27,8,10);
+        StudentDesk studentdesk28 = new StudentDesk();
+        addObject(studentdesk28,9,10);
+        
         TeacherDesk teacherdesk = new TeacherDesk();
-        addObject(teacherdesk,2,9);
+        addObject(teacherdesk,1,11);
         studentdesk31.setDeskGroup(1);
         studentdesk29.setDeskGroup(1);
         studentdesk30.setDeskGroup(1);
@@ -135,6 +156,10 @@ public class Classroom extends World
         studentdesk19.setDeskGroup(8);
         studentdesk18.setDeskGroup(8);
         studentdesk20.setDeskGroup(8);
+        studentdesk33.setDeskGroup(9);
+        studentdesk34.setDeskGroup(9);
+        studentdesk35.setDeskGroup(9);
+        studentdesk36.setDeskGroup(9);
     }
    
     
@@ -150,7 +175,7 @@ public class Classroom extends World
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
         KilgoreTrout kilgoretrout = new KilgoreTrout();
-        addObject(kilgoretrout,2,3);
+        addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
   
     }
