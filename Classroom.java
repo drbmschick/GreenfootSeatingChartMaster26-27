@@ -182,6 +182,9 @@ public class Classroom extends World
         addObject(braedynmendonca,2,3);
         braedynmendonca.assignSeat();
   
+        BrianSchick brianschick = new BrianSchick();
+        addObject(brianschick,2,3);
+        brianschick.assignSeat();
     }
     
     public List<Student> getAllStudents(){
