@@ -27,7 +27,7 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
         lastName=l;
         mySeatX=r;
         mySeatY=s;
-        portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
+        portraitFile=f.toLowerCase()+l.toLowerCase()+".JPG";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
         setImage(portraitFile);
@@ -44,8 +44,8 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
         mySeatX=1;
         mySeatY=1;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
+       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".png";
+       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.png";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
         setImage(portraitFile);
         sitting=true;

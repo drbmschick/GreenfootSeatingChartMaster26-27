@@ -178,11 +178,11 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         DavidLin davidlin = new DavidLin();
-        addObject(davidlin,3,6);
+        addObject(davidlin,8,10);
         davidlin.assignSeat();
   
     }
-    
+ 
     public List<Student> getAllStudents(){
        List<Student> s = getObjects(Student.class);  
        return s;
