@@ -177,6 +177,10 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
+        
+        BraedynMendonca braedynmendonca = new BraedynMendonca();
+        addObject(braedynmendonca,2,3);
+        braedynmendonca.assignSeat();
   
     }
     
