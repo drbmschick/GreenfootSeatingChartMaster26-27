@@ -27,7 +27,7 @@ NOTE: We will ask  for one or more class buildmasters.  Each class build-master 
 
 3) Clone (first time, each class build-master should fork, so that each class has their own copy) the repository into the directory where git bash is pointing:
 
-    git clone https://github.com/DHS-CP/GreenfootSeatingChartMaster2024-25.git  (this will change based on fork created by build-master(s).
+    git clone https://github.com/drbmschick/GreenfootSeatingChartMaster26-27.git  (this will change based on fork created by build-master(s).
 
 NOTE: This should set up all initial conditions for GIT and avoid a lot of confusion.
 
