@@ -190,6 +190,9 @@ public class Classroom extends World
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
         brianschick.assignSeat();
+        ShivamPrasad shivamprasad = new ShivamPrasad();
+        addObject(shivamprasad,2,7);
+        shivamprasad.assignSeat();
     }
  
     public List<Student> getAllStudents(){
