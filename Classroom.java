@@ -174,13 +174,15 @@ public class Classroom extends World
  // Each student needs to create their specific instance following the KilgoreTrout example.
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
-        AnayaBenada anayabenada = new AnayaBenada();
-        addObject(anayabenada,6,3);
-        anayabenada.assignSeat();
+
         
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
+
+        AnayaBenada anayabenada = new AnayaBenada();
+        addObject(anayabenada,6,3);
+        anayabenada.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,2,3);
