@@ -1,5 +1,7 @@
 import java.util.*;
 import greenfoot.*;
+
+
 //import java.util.ArrayList;
 import java.io.File;
 import java.io.FileWriter;
@@ -177,6 +179,10 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
+        
+        HariSridhar harisridhar = new HariSridhar();
+        addObject(harisridhar,2,9);
+        harisridhar.assignSeat();
   
     }
     
