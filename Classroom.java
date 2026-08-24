@@ -125,6 +125,7 @@ public class Classroom extends World
         
         TeacherDesk teacherdesk = new TeacherDesk();
         addObject(teacherdesk,1,11);
+        
         studentdesk31.setDeskGroup(1);
         studentdesk29.setDeskGroup(1);
         studentdesk30.setDeskGroup(1);
@@ -177,12 +178,13 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
+        
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,10);
         davidlin.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
-        addObject(brianschick,2,3);
+        addObject(brianschick,1,11);
         brianschick.assignSeat();
     }
  
