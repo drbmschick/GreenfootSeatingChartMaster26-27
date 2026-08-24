@@ -125,6 +125,7 @@ public class Classroom extends World
         
         TeacherDesk teacherdesk = new TeacherDesk();
         addObject(teacherdesk,1,11);
+        
         studentdesk31.setDeskGroup(1);
         studentdesk29.setDeskGroup(1);
         studentdesk30.setDeskGroup(1);
@@ -175,20 +176,22 @@ public class Classroom extends World
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
 
-        
-        KilgoreTrout kilgoretrout = new KilgoreTrout();
-        addObject(kilgoretrout,2,6);
-        kilgoretrout.assignSeat();
 
-        AnayaBenada anayabenada = new AnayaBenada();
-        addObject(anayabenada,6,3);
-        anayabenada.assignSeat();
+        
+        RishiMohanty rishimohanty = new RishiMohanty();
+        addObject(rishimohanty, 2, 6);
+        rishimohanty.assignSeat();
+ 
+        
+        DavidLin davidlin = new DavidLin();
+        addObject(davidlin,8,10);
+        davidlin.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
-        addObject(brianschick,2,3);
+        addObject(brianschick,1,11);
         brianschick.assignSeat();
     }
-    
+ 
     public List<Student> getAllStudents(){
        List<Student> s = getObjects(Student.class);  
        return s;
