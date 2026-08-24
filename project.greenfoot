@@ -27,10 +27,17 @@ dependency6.type=UsesDependency
 dependency7.from=Student
 dependency7.to=Classroom
 dependency7.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=722
+editor.fx.0.width=940
+editor.fx.0.x=255
+editor.fx.0.y=0
+=======
 editor.fx.0.height=830
 editor.fx.0.width=1550
 editor.fx.0.x=-7
 editor.fx.0.y=-7
+>>>>>>> 7b58ec02e94858d181a4a7c7422ed44e16144067
 height=830
 package.numDependencies=7
 package.numTargets=17
@@ -47,7 +54,7 @@ readme.name=@README
 readme.width=49
 readme.x=10
 readme.y=10
-simulation.speed=50
+simulation.speed=53
 target1.height=50
 target1.name=StudentDeskGroup
 target1.naviview.expanded=true
