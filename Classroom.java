@@ -180,7 +180,7 @@ public class Classroom extends World
         kilgoretrout.assignSeat();
         
         DavidLin davidlin = new DavidLin();
-        addObject(davidlin,8,10);
+        addObject(davidlin,8,9);
         davidlin.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
