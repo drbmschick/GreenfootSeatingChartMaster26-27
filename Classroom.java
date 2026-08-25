@@ -179,6 +179,7 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
+ // Place yourself at the bottom of this list here
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,10);
         davidlin.assignSeat();
