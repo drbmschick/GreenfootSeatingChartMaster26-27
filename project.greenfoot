@@ -37,7 +37,11 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 height=1024
+=======
+height=830
+>>>>>>> 161646d2f22d4aa22fb9b0b8bf62fcad22d761d9
 package.numDependencies=9
 package.numTargets=21
 project.charset=UTF-8
