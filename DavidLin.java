@@ -28,7 +28,7 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
         mySeatX=r;
         mySeatY=s;
         portraitFile=f.toLowerCase()+l.toLowerCase()+".JPG";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
-        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
+        standingFile=f.toLowerCase()+ l.toLowerCase()+"-standing.JPG";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
         setImage(portraitFile);
         sitting=true;
@@ -44,8 +44,8 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
         mySeatX=1;
         mySeatY=1;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".png";
-       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.png";
+       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
+       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
         setImage(portraitFile);
         sitting=true;
@@ -66,7 +66,7 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
                 getName();
                 sayName(soundFile);
             
-                myHobby("I like to time travel!");
+                myHobby("I like to code!");
             // Create a "special method for your class and put the call here.  You can twirl your image, resize it, move it around, change transparancy, or a 
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
@@ -101,22 +101,22 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
          Greenfoot.delay(10);
         // move right
         for (int i=1;i<=9;i++){
-            setLocation(i,0);
-            Greenfoot.delay(10);
+            setLocation(i,5);
+            Greenfoot.delay(25);
         }
         // move back
         for (int i=1;i<=5;i++){
-            setLocation(9,i);
-            Greenfoot.delay(10);
+            setLocation(3,i);
+            Greenfoot.delay(5);
         }      
          // move left
         for (int i=9;i>=0;i--){
-            setLocation(i,5);
+            setLocation(i,1);
             Greenfoot.delay(10);
         }      
               // move Forward
         for (int i=5;i>=0;i--){
-            setLocation(0,i);
+            setLocation(7,i);
             Greenfoot.delay(10);
         }   
            Greenfoot.delay(20);
