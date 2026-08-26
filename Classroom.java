@@ -82,7 +82,7 @@ public class Classroom extends World
         StudentDesk studentdesk14 = new StudentDesk();
         addObject(studentdesk14,6,6);
         StudentDesk studentdesk15 = new StudentDesk();
-        addObject(studentdesk15,5,7)    ;
+        addObject(studentdesk15,5,7);
         StudentDesk studentdesk16 = new StudentDesk();
         addObject(studentdesk16,6,7);
         // Table 6
