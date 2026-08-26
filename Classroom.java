@@ -179,11 +179,11 @@ public class Classroom extends World
         kilgoretrout.assignSeat();
         
         BraedynMendonca braedynmendonca = new BraedynMendonca();
-        addObject(braedynmendonca,2,3);
+        addObject(braedynmendonca,9,9);
         braedynmendonca.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
-        addObject(brianschick,2,3);
+        addObject(brianschick,6,6);
         brianschick.assignSeat();
     }
     
