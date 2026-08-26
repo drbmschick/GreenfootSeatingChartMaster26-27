@@ -39,10 +39,10 @@ public class BraedynMendonca extends Student implements SpecialInterestOrHobby
      * of the classroom.
      */
     public BraedynMendonca() {
-        firstName="Kilgore";
-        lastName="Trout";
-        mySeatX=1;
-        mySeatY=1;
+        firstName="Braedyn";
+        lastName="Mendonca";
+        mySeatX=9;
+        mySeatY=9;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile="braedynm.png";
        standingFile="braedynstanding.png";
