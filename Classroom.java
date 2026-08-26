@@ -178,12 +178,7 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
-        
-<<<<<<< HEAD
-        KellyLi kellyli = new KellyLi();
-        addObject(kellyli,9,10);
-        kellyli.assignSeat();
-=======
+ 
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
@@ -199,10 +194,14 @@ public class Classroom extends World
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
         brianschick.assignSeat();
-
+        
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
+               
+        KellyLi kellyli = new KellyLi();
+        addObject(kellyli,9,10);
+        kellyli.assignSeat();
 
         //SunayKaushal sunay = new SunayKaushal();
         //addObject(sunay, 5,6);
