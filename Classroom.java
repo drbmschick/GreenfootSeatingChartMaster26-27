@@ -178,8 +178,9 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
-        
-        VeeraDesale veeradesale = new VeeraDesale();
+
+ // Place yourself at the bottom of this list here
+	VeeraDesale veeradesale = new VeeraDesale();
         addObject(veeradesale,6,7);
         veeradesale.assignSeat();
 
