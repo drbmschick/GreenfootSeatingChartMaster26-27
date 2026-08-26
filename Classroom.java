@@ -179,9 +179,7 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
-        CaitlynLeung caitlynleung = new CaitlynLeung();
-        addObject(caitlynleung,6,9);
-        caitlynleung.assignSeat();
+ // Place yourself at the bottom of this list here
 
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
@@ -206,6 +204,10 @@ public class Classroom extends World
         //SunayKaushal sunay = new SunayKaushal();
         //addObject(sunay, 5,6);
         //sunay.assignSeat();
+        
+        CaitlynLeung caitlynleung = new CaitlynLeung();
+        addObject(caitlynleung,6,9);
+        caitlynleung.assignSeat();
     }
 
     
