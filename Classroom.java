@@ -179,6 +179,7 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
+<<<<<<< HEAD
 
         AryanRastkar aryanrastkar = new AryanRastkar();
         addObject(aryanrastkar,3,5);
@@ -189,6 +190,9 @@ public class Classroom extends World
         
         
 
+=======
+ // Place yourself at the bottom of this list here
+>>>>>>> 161822be7e9ca3c680db627d1773367c26a6299f
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
@@ -205,6 +209,7 @@ public class Classroom extends World
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
         brianschick.assignSeat();
+        
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
