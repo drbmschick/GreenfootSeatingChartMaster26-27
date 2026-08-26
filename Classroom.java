@@ -175,7 +175,6 @@ public class Classroom extends World
  // Each student needs to create their specific instance following the KilgoreTrout example.
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
-<<<<<<< HEAD
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
@@ -183,8 +182,6 @@ public class Classroom extends World
         AaravGanesh aarav = new AaravGanesh();
         addObject(aarav, 6,10);
         aarav.assignSeat();
-=======
-
 
         
         RishiMohanty rishimohanty = new RishiMohanty();
@@ -195,7 +192,6 @@ public class Classroom extends World
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,10);
         davidlin.assignSeat();
->>>>>>> master
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
