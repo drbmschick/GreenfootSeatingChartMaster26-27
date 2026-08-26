@@ -182,11 +182,15 @@ public class Classroom extends World
         BraedynMendonca braedynmendonca = new BraedynMendonca();
         addObject(braedynmendonca,2,3);
         braedynmendonca.assignSeat();
+
+        AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
+        addObject(aathyandh,5,7);
+        aathyandh.assignSeat();
         
-        
-        
-        
-        
+        RishiMohanty rishimohanty = new RishiMohanty();
+        addObject(rishimohanty, 2, 6);
+        rishimohanty.assignSeat();
+
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,10);
         davidlin.assignSeat();
@@ -194,6 +198,9 @@ public class Classroom extends World
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
         brianschick.assignSeat();
+        ShivamPrasad shivamprasad = new ShivamPrasad();
+        addObject(shivamprasad,2,7);
+        shivamprasad.assignSeat();
     }
  
     public List<Student> getAllStudents(){
