@@ -202,6 +202,10 @@ public class Classroom extends World
         SunayKaushal sunay = new SunayKaushal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
+        
+        AnayaBenada anayabenada = new AnayaBenada();
+        addObject(anayabenada,6 ,3);
+        anayabenada.assignSeat();
     }
  
     public List<Student> getAllStudents(){
