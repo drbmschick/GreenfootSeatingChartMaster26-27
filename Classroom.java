@@ -175,11 +175,20 @@ public class Classroom extends World
  // Each student needs to create their specific instance following the KilgoreTrout example.
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
+     
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
  // Place yourself at the bottom of this list here
+        AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
+        addObject(abhinavjagtap,5,4);
+        abhinavjagtap.assignSeat();
+
+        SamarthGaggar samarthgaggar = new SamarthGaggar();
+        addObject(samarthgaggar,3,6);
+        samarthgaggar.assignSeat();
+        
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
@@ -187,7 +196,7 @@ public class Classroom extends World
         RishiMohanty rishimohanty = new RishiMohanty();
         addObject(rishimohanty, 2, 6);
         rishimohanty.assignSeat();
- 
+
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,9);
         davidlin.assignSeat();
@@ -199,14 +208,22 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-        SunayKuashal sunay = new SunayKuashal();
+
+        SunayKaushal sunay = new SunayKaushal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
         
         AaravGanesh aarav = new AaravGanesh();
         addObject(aarav, 6,10);
         aarav.assignSeat();
+     
+        AnayaBenada anayabenada = new AnayaBenada();
+        addObject(anayabenada,6 ,3);
+        anayabenada.assignSeat();
 
+        BraedynMendonca braedynmendonca = new BraedynMendonca();
+        addObject(braedynmendonca,9,9);
+        braedynmendonca.assignSeat();
     }
  
     public List<Student> getAllStudents(){
