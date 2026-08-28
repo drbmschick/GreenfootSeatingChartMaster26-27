@@ -41,7 +41,7 @@ public class AbhinavJagtap extends Student implements SpecialInterestOrHobby
         firstName="Abhinav";
         lastName="Jagtap";
         mySeatX=5;
-        mySeatY=7;
+        mySeatY=3;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
