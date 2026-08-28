@@ -180,6 +180,7 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
+<<<<<<< HEAD
 
  // Place yourself at the bottom of this list here
 <<<<<<< HEAD
@@ -227,6 +228,12 @@ public class Classroom extends World
         RohanJoshi rohanjoshi = new RohanJoshi();
         addObject(rohanjoshi,5,10);
         rohanjoshi.assignSeat();
+=======
+        
+        VijithTirumala vijith = new VijithTirumala();
+        addObject(vijith,3,10);
+        vijith.assignSeat();
+>>>>>>> 05ad315 (Initial)
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
