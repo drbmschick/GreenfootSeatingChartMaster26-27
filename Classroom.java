@@ -199,9 +199,14 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-        SunayKaushal sunay = new SunayKaushal();
+        SunayKuashal sunay = new SunayKuashal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
+        
+        AaravGanesh aarav = new AaravGanesh();
+        addObject(aarav, 6,10);
+        aarav.assignSeat();
+
     }
  
     public List<Student> getAllStudents(){
