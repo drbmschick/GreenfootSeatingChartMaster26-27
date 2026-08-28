@@ -194,6 +194,11 @@ public class Classroom extends World
         NayaDasRoy nayadasroy = new NayaDasRoy();
         addObject(nayadasroy,3,4);
         nayadasroy.assignSeat();
+
+         
+        SachinGupta sg = new SachinGupta();
+        addObject(sg, 9, 9);
+        sg.assignSeat();
         
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
