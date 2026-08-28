@@ -180,7 +180,10 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
-
+        
+        RishiMohanty rishimohanty = new RishiMohanty();
+        addObject(rishimohanty, 2, 6);
+        rishimohanty.assignSeat();
         AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
         addObject(abhinavjagtap,5,4);
         abhinavjagtap.assignSeat();
