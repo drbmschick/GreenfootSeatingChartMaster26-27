@@ -216,6 +216,10 @@ public class Classroom extends World
         addObject(brianschick,1,11);
         brianschick.assignSeat();
         
+        YashVerma yashverma = new YashVerma();
+        addObject(yashverma,2,3);
+        yashverma.assignSeat();
+        
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
