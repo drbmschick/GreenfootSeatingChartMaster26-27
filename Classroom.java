@@ -180,6 +180,11 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
+
+        AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
+        addObject(abhinavjagtap,5,4);
+        abhinavjagtap.assignSeat();
+
  // Place yourself at the bottom of this list here
         SamarthGaggar samarthgaggar = new SamarthGaggar();
         addObject(samarthgaggar,3,6);
@@ -196,6 +201,7 @@ public class Classroom extends World
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,9);
         davidlin.assignSeat();
+
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
