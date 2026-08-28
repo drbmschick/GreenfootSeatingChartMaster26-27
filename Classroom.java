@@ -180,12 +180,11 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
-
+ // Place yourself at the bottom of this list here
         AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
         addObject(abhinavjagtap,5,4);
         abhinavjagtap.assignSeat();
 
- // Place yourself at the bottom of this list here
         SamarthGaggar samarthgaggar = new SamarthGaggar();
         addObject(samarthgaggar,3,6);
         samarthgaggar.assignSeat();
@@ -201,7 +200,6 @@ public class Classroom extends World
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,9);
         davidlin.assignSeat();
-
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
@@ -210,11 +208,15 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-     
+
         SunayKaushal sunay = new SunayKaushal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
         
+        AaravGanesh aarav = new AaravGanesh();
+        addObject(aarav, 6,10);
+        aarav.assignSeat();
+     
         AnayaBenada anayabenada = new AnayaBenada();
         addObject(anayabenada,6 ,4);
         anayabenada.assignSeat();
