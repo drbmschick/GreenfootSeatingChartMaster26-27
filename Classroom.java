@@ -175,12 +175,25 @@ public class Classroom extends World
  // Each student needs to create their specific instance following the KilgoreTrout example.
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
+     
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
         
- // Place yourself at the bottom of this list here
 
+        AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
+        addObject(abhinavjagtap,5,4);
+        abhinavjagtap.assignSeat();
+
+ // Place yourself at the bottom of this list here
+<<<<<<< HEAD
+
+=======
+        SamarthGaggar samarthgaggar = new SamarthGaggar();
+        addObject(samarthgaggar,3,6);
+        samarthgaggar.assignSeat();
+        
+>>>>>>> master
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
@@ -192,6 +205,7 @@ public class Classroom extends World
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,9);
         davidlin.assignSeat();
+
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
@@ -200,6 +214,7 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
+<<<<<<< HEAD
         
         //SunayKaushal sunay = new SunayKaushal();
         //addObject(sunay, 5,6);
@@ -208,6 +223,16 @@ public class Classroom extends World
         CaitlynLeung caitlynleung = new CaitlynLeung();
         addObject(caitlynleung,6,9);
         caitlynleung.assignSeat();
+=======
+     
+        SunayKaushal sunay = new SunayKaushal();
+        addObject(sunay, 5,6);
+        sunay.assignSeat();
+        
+        AnayaBenada anayabenada = new AnayaBenada();
+        addObject(anayabenada,6 ,3);
+        anayabenada.assignSeat();
+>>>>>>> master
     }
 
     
