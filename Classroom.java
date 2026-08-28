@@ -216,7 +216,7 @@ public class Classroom extends World
         sunay.assignSeat();
         
         AnayaBenada anayabenada = new AnayaBenada();
-        addObject(anayabenada,6 ,3);
+        addObject(anayabenada,6 ,4);
         anayabenada.assignSeat();
     }
  
