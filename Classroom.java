@@ -1,5 +1,7 @@
 import java.util.*;
 import greenfoot.*;
+
+
 //import java.util.ArrayList;
 import java.io.File;
 import java.io.FileWriter;
@@ -184,7 +186,7 @@ public class Classroom extends World
         rishimohanty.assignSeat();
 
         AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
-        addObject(abhinavjagtap,5,4);
+        addObject(abhinavjagtap,5,3);
         abhinavjagtap.assignSeat();
 
         SamarthGaggar samarthgaggar = new SamarthGaggar();
@@ -203,6 +205,10 @@ public class Classroom extends World
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
+        
+        HariSridhar harisridhar = new HariSridhar();
+        addObject(harisridhar,2,9);
+        harisridhar.assignSeat();
         
         RishiMohanty rishimohanty = new RishiMohanty();
         addObject(rishimohanty, 2, 6);
