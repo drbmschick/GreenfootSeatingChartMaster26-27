@@ -176,11 +176,15 @@ public class Classroom extends World
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
      
+        KilgoreTrout kilgoretrout = new KilgoreTrout();
+        addObject(kilgoretrout,2,6);
+        kilgoretrout.assignSeat();
+        
+ // Place yourself at the bottom of this list here
         SamarthGaggar samarthgaggar = new SamarthGaggar();
         addObject(samarthgaggar,3,6);
         samarthgaggar.assignSeat();
         
- // Place yourself at the bottom of this list here
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
@@ -200,6 +204,7 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
+     
         SunayKaushal sunay = new SunayKaushal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
