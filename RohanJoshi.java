@@ -30,7 +30,7 @@ public class RohanJoshi extends Student implements SpecialInterestOrHobby
         portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
-        setScaledImage(portraitFile, 5);
+        setScaledImage(portraitFile);
         sitting=true;
     }
     /**
@@ -47,7 +47,7 @@ public class RohanJoshi extends Student implements SpecialInterestOrHobby
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
-        setScaledImage(portraitFile, 40);
+        setScaledImage(portraitFile);
         sitting=true;
     }
 
@@ -57,9 +57,9 @@ public class RohanJoshi extends Student implements SpecialInterestOrHobby
      * @param filename the image file to load
      * @param scaleFactor how many times smaller the image should be (e.g. 5 = 1/5 size)
      */
-    private void setScaledImage(String filename, int scaleFactor) {
+    private void setScaledImage(String filename) {
         GreenfootImage img = new GreenfootImage(filename);
-        img.scale(img.getWidth() / scaleFactor, img.getHeight() / scaleFactor);
+        img.scale(45, 60);
         setImage(img);
     }
     
@@ -73,19 +73,19 @@ public class RohanJoshi extends Student implements SpecialInterestOrHobby
         if(Greenfoot.mouseClicked(this)){
           //  if (sitting){
                 sitting=false;
-                setScaledImage(standingFile, 40);
+                setScaledImage(standingFile);
                 System.out.println(""); // Print a blank line to create space between any student output.
                 getName();
                 sayName(soundFile);
             
-                myHobby("I like to time travel!");
+                myHobby("I like to play video games!");
             // Create a "special method for your class and put the call here.  You can twirl your image, resize it, move it around, change transparancy, or a 
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
             
                 circleClass();  // Rohan Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
            
-                sitDown();
+                returnToSeat();
             }
         
     } 
