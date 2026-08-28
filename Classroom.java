@@ -181,6 +181,11 @@ public class Classroom extends World
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,2,3);
         brianschick.assignSeat();
+        
+        YashVerma yashverma = new YashVerma();
+        addObject(yashverma,2,3);
+        yashverma.assignSeat();
+        
     }
     
     public List<Student> getAllStudents(){
