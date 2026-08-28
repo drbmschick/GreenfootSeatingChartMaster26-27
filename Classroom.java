@@ -239,7 +239,7 @@ public class Classroom extends World
         anayabenada.assignSeat();
 
         BraedynMendonca braedynmendonca = new BraedynMendonca();
-        addObject(braedynmendonca,9,9);
+        addObject(braedynmendonca,3,3);
         braedynmendonca.assignSeat();
         
         Mukhil mukhil = new Mukhil();
