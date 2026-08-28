@@ -182,7 +182,7 @@ public class Classroom extends World
         
 
         AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
-        addObject(abhinavjagtap,5,4);
+        addObject(abhinavjagtap,5,3);
         abhinavjagtap.assignSeat();
 
  // Place yourself at the bottom of this list here
