@@ -7,11 +7,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version 2.0 Aug 13, 2019
  * @version 3.0 July 21, 2020
  */
-public class DavidLin extends Student implements SpecialInterestOrHobby
+public class ShivamPrasad extends Student implements SpecialInterestOrHobby
 {
 
     /**
-     * Constructor for the KilgoreTrout class.
+     * Constructor for the ShivamPrasad class.
      * Constructors are special methods with the same exact name as the class name.  
      * Constructors to not have return types.
      * Constructors can be overloaded. This means we can call a constructor with different sets of parameter
@@ -22,13 +22,13 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
      * @param int s (seat number within row seating arrangement)
      * 
      */
-    public DavidLin(String f, String l, int r, int s) {
+    public ShivamPrasad(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
         mySeatX=r;
         mySeatY=s;
-        portraitFile=f.toLowerCase()+l.toLowerCase()+".JPG";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
-        standingFile=f.toLowerCase()+ l.toLowerCase()+"-standing.JPG";
+        portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
+        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
         setImage(portraitFile);
         sitting=true;
@@ -38,11 +38,11 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
      * Pay attention to how the row and seat variables set the location of the image.  1,1 is the first cell in the upper left
      * of the classroom.
      */
-    public DavidLin() {
-        firstName="David";
-        lastName="Lin";
-        mySeatX=1;
-        mySeatY=1;
+    public ShivamPrasad() {
+        firstName="Shivam";
+        lastName="Prasad";
+        mySeatX=2;
+        mySeatY=0;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
@@ -71,7 +71,7 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
             
-                circleClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
+                movementClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
            
                 sitDown();
             }
@@ -96,31 +96,48 @@ public class DavidLin extends Student implements SpecialInterestOrHobby
      * This is a local method specific to the KilgoreTrout class used to animate the character once the image is clicked on.
      * You should write your own methods to perform your own animation for your character/avatar.
      */
-    public void circleClass(){
+    public void movementClass(){
         setLocation(0,0);
-         Greenfoot.delay(10);
+        Greenfoot.delay(10);
+         
+        for (int i=1; i<=9; i+=2){
+            setLocation(0,i);
+            Greenfoot.delay(2);
+            for (int j=0; j<=12; j++){
+                setLocation(j,i);
+                Greenfoot.delay(2);
+            }
+            setLocation(12,i+1);
+            Greenfoot.delay(2);
+            for (int j=12; j>=0; j--){
+                setLocation(j,i+1);
+                Greenfoot.delay(2);
+            }
+        }
+        /*
         // move right
         for (int i=1;i<=9;i++){
-            setLocation(i,5);
-            Greenfoot.delay(25);
+            setLocation(i,0);
+            Greenfoot.delay(10);
         }
         // move back
         for (int i=1;i<=5;i++){
-            setLocation(3,i);
-            Greenfoot.delay(5);
+            setLocation(9,i);
+            Greenfoot.delay(10);
         }      
          // move left
         for (int i=9;i>=0;i--){
-            setLocation(i,1);
+            setLocation(i,5);
             Greenfoot.delay(10);
         }      
               // move Forward
         for (int i=5;i>=0;i--){
-            setLocation(7,i);
+            setLocation(0,i);
             Greenfoot.delay(10);
         }   
            Greenfoot.delay(20);
            returnToSeat();
+        */
     }
      /**
      * myHobby is one of the interfaces provided.  
