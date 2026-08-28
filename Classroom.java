@@ -203,7 +203,6 @@ public class Classroom extends World
         addObject(sunay, 5,6);
         sunay.assignSeat();
         
-        Braedynfinal
         BraedynMendonca braedynmendonca = new BraedynMendonca();
         addObject(braedynmendonca,9,9);
         braedynmendonca.assignSeat();
