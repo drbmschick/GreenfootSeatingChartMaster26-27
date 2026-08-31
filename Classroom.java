@@ -225,7 +225,11 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-        
+               
+        KellyLi kellyli = new KellyLi();
+        addObject(kellyli,9,10);
+        kellyli.assignSeat();
+
         YashVerma yashverma = new YashVerma();
         addObject(yashverma,2,3);
         yashverma.assignSeat();
