@@ -217,6 +217,10 @@ public class Classroom extends World
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,9);
         davidlin.assignSeat();
+        
+        RohanJoshi rohanjoshi = new RohanJoshi();
+        addObject(rohanjoshi,5,10);
+        rohanjoshi.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
