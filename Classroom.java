@@ -229,6 +229,17 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
+<<<<<<< HEAD
+        
+        //SunayKaushal sunay = new SunayKaushal();
+        //addObject(sunay, 5,6);
+        //sunay.assignSeat();
+        
+        CaitlynLeung caitlynleung = new CaitlynLeung();
+        addObject(caitlynleung,6,9);
+        caitlynleung.assignSeat();
+     
+=======
                
         KellyLi kellyli = new KellyLi();
         addObject(kellyli,9,10);
@@ -238,6 +249,7 @@ public class Classroom extends World
         addObject(yashverma,2,3);
         yashverma.assignSeat();
         
+>>>>>>> master
         SunayKaushal sunay = new SunayKaushal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
@@ -258,7 +270,8 @@ public class Classroom extends World
         addObject(mukhil,2,10);
         mukhil.assignSeat();
     }
- 
+
+    
     public List<Student> getAllStudents(){
        List<Student> s = getObjects(Student.class);  
        return s;
