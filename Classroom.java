@@ -181,7 +181,11 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
 
- // Place yourself at the bottom of this list here
+// Place yourself at the bottom of this list here
+        VijithTirumala vijith = new VijithTirumala();
+        addObject(vijith,3,10);
+        vijith.assignSeat();
+
         VeeraDesale veeradesale = new VeeraDesale();
         addObject(veeradesale,6,7);
         veeradesale.assignSeat();
