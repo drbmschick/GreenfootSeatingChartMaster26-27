@@ -209,10 +209,7 @@ public class Classroom extends World
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
-        
-
-        addObject(rishimohanty, 2, 6);
-        rishimohanty.assignSeat();
+    
 
         HariSridhar harisridhar = new HariSridhar();
         addObject(harisridhar,2,9);
@@ -234,7 +231,6 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-<<<<<<< HEAD
         
         //SunayKaushal sunay = new SunayKaushal();
         //addObject(sunay, 5,6);
@@ -244,7 +240,6 @@ public class Classroom extends World
         addObject(caitlynleung,6,9);
         caitlynleung.assignSeat();
      
-=======
                
         KellyLi kellyli = new KellyLi();
         addObject(kellyli,9,10);
@@ -254,7 +249,6 @@ public class Classroom extends World
         addObject(yashverma,2,3);
         yashverma.assignSeat();
         
->>>>>>> master
         SunayKaushal sunay = new SunayKaushal();
         addObject(sunay, 5,6);
         sunay.assignSeat();
@@ -275,19 +269,20 @@ public class Classroom extends World
         RonakHiremath ronakhiremath = new RonakHiremath();
         addObject(ronakhiremath,6,3);
         ronakhiremath.assignSeat();
+        
+        
         Mukhil mukhil = new Mukhil();
         addObject(mukhil,2,10);
         mukhil.assignSeat();
 
     } 
-    }
-
-    {
+    
+    
     public List<Student> getAllStudents(){
        List<Student> s = getObjects(Student.class);  
-           return s;
+       return s;
     }
-    
+
   
     /**
      * gets a list of all students, and creates a new file that can be cut/pasted in as a prepare statement.
@@ -296,7 +291,7 @@ public class Classroom extends World
     public void createNewSeatingChart(){
         boolean lastWrite;
         String timestamp=DateFormatter.makeDate();
-      
+          
         String newChartFile="seatingchart-" + timestamp + ".txt";   
         
         List<Student> students = getObjects(Student.class); 
@@ -351,6 +346,8 @@ public class Classroom extends World
          System.out.println("Exception occurred:");
          ioe.printStackTrace();
        }
-   }
+    }
 }
 }
+
+
