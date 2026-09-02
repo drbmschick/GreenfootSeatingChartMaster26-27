@@ -180,14 +180,13 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
-<<<<<<< HEAD
 
- // Place yourself at the bottom of this list here
-<<<<<<< HEAD
-          VeeraDesale veeradesale = new VeeraDesale();
-=======
+// Place yourself at the bottom of this list here
+        VijithTirumala vijith = new VijithTirumala();
+        addObject(vijith,3,10);
+        vijith.assignSeat();
+
         VeeraDesale veeradesale = new VeeraDesale();
->>>>>>> d4682e9 (Fixed unmerged Classroom.java Rohan pushed to master. Fixed project.greenfoot)
         addObject(veeradesale,6,7);
         veeradesale.assignSeat();
         
@@ -215,11 +214,9 @@ public class Classroom extends World
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
     
-
         HariSridhar harisridhar = new HariSridhar();
         addObject(harisridhar,2,9);
         harisridhar.assignSeat();
-
 
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,9);
@@ -228,13 +225,7 @@ public class Classroom extends World
         RohanJoshi rohanjoshi = new RohanJoshi();
         addObject(rohanjoshi,5,10);
         rohanjoshi.assignSeat();
-=======
         
-        VijithTirumala vijith = new VijithTirumala();
-        addObject(vijith,3,10);
-        vijith.assignSeat();
->>>>>>> 05ad315 (Initial)
-  
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
         brianschick.assignSeat();
@@ -242,22 +233,11 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-<<<<<<< HEAD
-        
-        //SunayKaushal sunay = new SunayKaushal();
-        //addObject(sunay, 5,6);
-        //sunay.assignSeat();
-=======
->>>>>>> d4682e9 (Fixed unmerged Classroom.java Rohan pushed to master. Fixed project.greenfoot)
-        
+
         CaitlynLeung caitlynleung = new CaitlynLeung();
         addObject(caitlynleung,6,9);
         caitlynleung.assignSeat();
-     
-<<<<<<< HEAD
-               
-=======
->>>>>>> d4682e9 (Fixed unmerged Classroom.java Rohan pushed to master. Fixed project.greenfoot)
+    
         KellyLi kellyli = new KellyLi();
         addObject(kellyli,9,10);
         kellyli.assignSeat();
@@ -282,11 +262,9 @@ public class Classroom extends World
         addObject(braedynmendonca,3,3);
         braedynmendonca.assignSeat();
         
-
         RonakHiremath ronakhiremath = new RonakHiremath();
         addObject(ronakhiremath,6,3);
         ronakhiremath.assignSeat();
-        
         
         Mukhil mukhil = new Mukhil();
         addObject(mukhil,2,10);
