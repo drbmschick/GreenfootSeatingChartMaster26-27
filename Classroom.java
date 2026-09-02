@@ -222,6 +222,10 @@ public class Classroom extends World
         BraedynMendonca braedynmendonca = new BraedynMendonca();
         addObject(braedynmendonca,9,9);
         braedynmendonca.assignSeat();
+        
+        NehalBedadham nehalbedadham = new NehalBedadham();
+        addObject(nehalbedadham,5 ,3);
+        nehalbedadham.assignSeat();
     }
  
     public List<Student> getAllStudents(){
