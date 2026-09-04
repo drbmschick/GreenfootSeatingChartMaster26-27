@@ -1,16 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * The AbhinavJagtap class represents me and my seating location in AP CSA
+ * The NayaDasRoy class can be used as a model for your own class that represents you and your seating location in AP CSA
  * 
- * @author Abhinav Jagtap
+ * @author Mr. Kaehms
+ * @version 2.0 Aug 13, 2019
  * @version 3.0 July 21, 2020
  */
-public class AbhinavJagtap extends Student implements SpecialInterestOrHobby
+public class NayaDasRoy extends Student implements SpecialInterestOrHobby
 {
 
     /**
-     * Constructor for the AbhinavJagtap class.
+     * Constructor for the NayaDasRoy class.
      * Constructors are special methods with the same exact name as the class name.  
      * Constructors to not have return types.
      * Constructors can be overloaded. This means we can call a constructor with different sets of parameter
@@ -21,7 +22,7 @@ public class AbhinavJagtap extends Student implements SpecialInterestOrHobby
      * @param int s (seat number within row seating arrangement)
      * 
      */
-    public AbhinavJagtap(String f, String l, int r, int s) {
+    public NayaDasRoy(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
         mySeatX=r;
@@ -37,21 +38,21 @@ public class AbhinavJagtap extends Student implements SpecialInterestOrHobby
      * Pay attention to how the row and seat variables set the location of the image.  1,1 is the first cell in the upper left
      * of the classroom.
      */
-    public AbhinavJagtap() {
-        firstName="Abhinav";
-        lastName="Jagtap";
-        mySeatX=5;
-        mySeatY=3;
+    public NayaDasRoy() {
+        firstName="Naya";
+        lastName="DasRoy";
+        mySeatX=1;
+        mySeatY=1;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
+       portraitFile=firstName.toLowerCase()+lastName.toLowerCase()+".jpg";
+       standingFile=firstName.toLowerCase()+lastName.toLowerCase()+"-standing.jpg";
         soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
         setImage(portraitFile);
         sitting=true;
     }
     
      /**
-     * Act - do whatever the AbhinavJagtap actor wants to do. This method is called whenever
+     * Act - do whatever the NayaDasRoy actor wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */   
     public void act() 
@@ -63,13 +64,14 @@ public class AbhinavJagtap extends Student implements SpecialInterestOrHobby
                 setImage(standingFile);
                 System.out.println(""); // Print a blank line to create space between any student output.
                 getName();
+                sayName(soundFile);
             
-                myHobby("I like playing basketball!");
+                myHobby("I like listening to music!");
             // Create a "special method for your class and put the call here.  You can twirl your image, resize it, move it around, change transparancy, or a 
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
             
-                basketballDribble(soundFile);  // Plays my name and keeps moving until it's done.
+                circleClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
            
                 sitDown();
             }
@@ -91,32 +93,34 @@ public class AbhinavJagtap extends Student implements SpecialInterestOrHobby
 
    
     /**
-     * This is a local method specific to the AbhinavJagtap class used to animate the character once the image is clicked on.
-     * Plays my name sound and dribbles (side to side, moving toward the front of the room and back) for
-     * exactly as long as the sound is actually playing, checked live instead of guessing a step count.
+     * This is a local method specific to the NayaDasRoy class used to animate the character once the image is clicked on.
+     * You should write your own methods to perform your own animation for your character/avatar.
      */
-    public void basketballDribble(String sound){
-        GreenfootSound nameSound = new GreenfootSound(sound);
-        nameSound.play();
-
-        int homeX = getX();
-        int homeY = getY();
-        int y = homeY;
-        int step = -1; // start moving toward the front of the room (decreasing y)
-
-        while (nameSound.isPlaying()){
-            y = y + step;
-            if (y <= 0 || y >= homeY){
-                step = step * -1; // bounce between the front of the room and my seat's row
-            }
-            int sway = (y % 2 == 0) ? 1 : -1; // small side to side dribble motion
-            setLocation(homeX + sway, y);
-            Greenfoot.delay(4);
+    public void circleClass(){
+        setLocation(0,0);
+         Greenfoot.delay(10);
+        // move right
+        for (int i=1;i<=9;i++){
+            setLocation(i,0);
+            Greenfoot.delay(10);
         }
-
-        setLocation(homeX, homeY);
-        Greenfoot.delay(15);
-        returnToSeat();
+        // move back
+        for (int i=1;i<=5;i++){
+            setLocation(9,i);
+            Greenfoot.delay(10);
+        }      
+         // move left
+        for (int i=9;i>=0;i--){
+            setLocation(i,5);
+            Greenfoot.delay(10);
+        }      
+        for (int i=1;i<=9;i++){
+            setLocation(i,5);
+            Greenfoot.delay(10);
+        }
+        // move Forward  
+           Greenfoot.delay(20);
+           returnToSeat();
     }
      /**
      * myHobby is one of the interfaces provided.  
