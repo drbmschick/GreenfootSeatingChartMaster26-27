@@ -181,8 +181,12 @@ public class Classroom extends World
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
 
- // Place yourself at the bottom of this list here
-	VeeraDesale veeradesale = new VeeraDesale();
+// Place yourself at the bottom of this list here
+        VijithTirumala vijith = new VijithTirumala();
+        addObject(vijith,3,10);
+        vijith.assignSeat();
+
+        VeeraDesale veeradesale = new VeeraDesale();
         addObject(veeradesale,6,7);
         veeradesale.assignSeat();
         
@@ -233,7 +237,11 @@ public class Classroom extends World
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
-               
+        
+        CaitlynLeung caitlynleung = new CaitlynLeung();
+        addObject(caitlynleung,6,9);
+        caitlynleung.assignSeat();
+     
         KellyLi kellyli = new KellyLi();
         addObject(kellyli,9,10);
         kellyli.assignSeat();
@@ -243,7 +251,7 @@ public class Classroom extends World
         yashverma.assignSeat();
         
         SunayKaushal sunay = new SunayKaushal();
-        addObject(sunay, 5,6);
+        addObject(sunay, 6,6);
         sunay.assignSeat();
         
         AaravGanesh aarav = new AaravGanesh();
@@ -262,7 +270,8 @@ public class Classroom extends World
         addObject(mukhil,2,10);
         mukhil.assignSeat();
     }
- 
+
+    
     public List<Student> getAllStudents(){
        List<Student> s = getObjects(Student.class);  
        return s;
