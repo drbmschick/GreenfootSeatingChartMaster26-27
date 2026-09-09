@@ -27,9 +27,9 @@ public class YashVerma extends Student implements SpecialInterestOrHobby
         lastName=l;
         mySeatX=r;
         mySeatY=s;
-        portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
-        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
-        soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
+        portraitFile="yashverma.jpg";  // Make sure to name your image files firstlast.jpg, all lowercase!!!
+        standingFile="yashverma-standing.jpg";
+        soundFile="yashverma.wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
         setImage(portraitFile);
         sitting=true;
     }
@@ -39,14 +39,14 @@ public class YashVerma extends Student implements SpecialInterestOrHobby
      * of the classroom.
      */
     public YashVerma() {
-        firstName="Kilgore";
-        lastName="Trout";
+        firstName="Yash";
+        lastName="Verma";
         mySeatX=1;
         mySeatY=1;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
-       standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
-        soundFile=firstName.toLowerCase()+ lastName.toLowerCase()+".wav";
+       portraitFile="yashverma.jpg";
+       standingFile="yashverma-standing.jpg";
+        soundFile="yashverma.wav";
         setImage(portraitFile);
         sitting=true;
     }
@@ -66,7 +66,7 @@ public class YashVerma extends Student implements SpecialInterestOrHobby
                 getName();
                 sayName(soundFile);
             
-                myHobby("I like to time travel!");
+                myHobby("I like to play basketball!");
             // Create a "special method for your class and put the call here.  You can twirl your image, resize it, move it around, change transparancy, or a 
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
@@ -82,7 +82,7 @@ public class YashVerma extends Student implements SpecialInterestOrHobby
      * Prints the first and last name to the console
      */
     public void getName(){
-        System.out.println("My name is " + firstName + " " + lastName);
+        System.out.println("My name is Yash Verma ");
     }
     /**
      * This method needs to allow the user to interact with the student through a question and answer interface, and provide

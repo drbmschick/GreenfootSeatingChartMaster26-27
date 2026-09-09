@@ -1,5 +1,7 @@
 import java.util.*;
 import greenfoot.*;
+
+
 //import java.util.ArrayList;
 import java.io.File;
 import java.io.FileWriter;
@@ -178,32 +180,98 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,6);
         kilgoretrout.assignSeat();
+
+// Place yourself at the bottom of this list here
+        VijithTirumala vijith = new VijithTirumala();
+        addObject(vijith,3,10);
+        vijith.assignSeat();
+
+        VeeraDesale veeradesale = new VeeraDesale();
+        addObject(veeradesale,6,7);
+        veeradesale.assignSeat();
+        
+        RishiMohanty rishimohanty = new RishiMohanty();
+        addObject(rishimohanty, 2, 6);
+        rishimohanty.assignSeat();
+
+        AbhinavJagtap abhinavjagtap = new AbhinavJagtap();
+        addObject(abhinavjagtap,5,3);
+        abhinavjagtap.assignSeat();
+
+        SamarthGaggar samarthgaggar = new SamarthGaggar();
+        addObject(samarthgaggar,3,6);
+        samarthgaggar.assignSeat();
+        
+        NayaDasRoy nayadasroy = new NayaDasRoy();
+        addObject(nayadasroy,3,4);
+        nayadasroy.assignSeat();
+        
+        SachinGupta sg = new SachinGupta();
+        addObject(sg, 9, 9);
+        sg.assignSeat();
         
         AathyandhSrinivasan aathyandh = new AathyandhSrinivasan();
         addObject(aathyandh,5,7);
         aathyandh.assignSeat();
         
-        RishiMohanty rishimohanty = new RishiMohanty();
-        addObject(rishimohanty, 2, 6);
-        rishimohanty.assignSeat();
-        
         VhivanthVimal vhivanthvimal = new VhivanthVimal();
-        addObject(vhivanthvimal, 5, 10);
+        addObject(vhivanthvimal, 5, 9);
         vhivanthvimal.assignSeat();
  
- 
+        HariSridhar harisridhar = new HariSridhar();
+        addObject(harisridhar,2,9);
+        harisridhar.assignSeat();
+
         DavidLin davidlin = new DavidLin();
-        addObject(davidlin,8,10);
+        addObject(davidlin,8,9);
         davidlin.assignSeat();
+        
+        RohanJoshi rohanjoshi = new RohanJoshi();
+        addObject(rohanjoshi,5,10);
+        rohanjoshi.assignSeat();
   
         BrianSchick brianschick = new BrianSchick();
         addObject(brianschick,1,11);
         brianschick.assignSeat();
+
         ShivamPrasad shivamprasad = new ShivamPrasad();
         addObject(shivamprasad,2,7);
         shivamprasad.assignSeat();
+        
+        CaitlynLeung caitlynleung = new CaitlynLeung();
+        addObject(caitlynleung,6,9);
+        caitlynleung.assignSeat();
+     
+        KellyLi kellyli = new KellyLi();
+        addObject(kellyli,9,10);
+        kellyli.assignSeat();
+
+        YashVerma yashverma = new YashVerma();
+        addObject(yashverma,2,3);
+        yashverma.assignSeat();
+        
+        SunayKaushal sunay = new SunayKaushal();
+        addObject(sunay, 6,6);
+        sunay.assignSeat();
+        
+        AaravGanesh aarav = new AaravGanesh();
+        addObject(aarav, 6,10);
+        aarav.assignSeat();
+     
+        AnayaBenada anayabenada = new AnayaBenada();
+        addObject(anayabenada,6 ,4);
+        anayabenada.assignSeat();
+
+        BraedynMendonca braedynmendonca = new BraedynMendonca();
+        addObject(braedynmendonca,3,3);
+        braedynmendonca.assignSeat();
+        
+        Mukhil mukhil = new Mukhil();
+        addObject(mukhil,2,10);
+        mukhil.assignSeat();
     }
- 
+
+    
     public List<Student> getAllStudents(){
        List<Student> s = getObjects(Student.class);  
        return s;
