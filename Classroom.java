@@ -186,6 +186,11 @@ public class Classroom extends World
         RishiMohanty rishimohanty = new RishiMohanty();
         addObject(rishimohanty, 2, 6);
         rishimohanty.assignSeat();
+        
+        VhivanthVimal vhivanthvimal = new VhivanthVimal();
+        addObject(vhivanthvimal, 5, 10);
+        vhivanthvimal.assignSeat();
+ 
  
         DavidLin davidlin = new DavidLin();
         addObject(davidlin,8,10);
